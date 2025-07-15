@@ -1,1 +1,1 @@
-console.log('RankGainer site enhanced!');
+console.log('RankGainer site ready!');
