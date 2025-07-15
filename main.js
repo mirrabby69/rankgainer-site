@@ -1,1 +1,1 @@
-console.log('RankGainer Responsive Loaded');
+console.log('RankGainer Mobile Friendly Site Loaded');
