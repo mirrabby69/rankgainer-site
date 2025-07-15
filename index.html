@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,7 @@
   <title>RankGainer | GMB Setup & Local SEO Expert</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
   <header>
@@ -46,18 +48,23 @@
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <form>
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message"></textarea>
+    <form action="https://formspree.io/f/xnqewjgr" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
       <button type="submit">Send</button>
     </form>
   </section>
+
+  <a href="https://wa.me/01766079675" class="whatsapp-float" target="_blank">Chat 💬</a>
 
   <footer>
     <p>© 2025 RankGainer. All rights reserved.</p>
   </footer>
 
   <script src="js/main.js"></script>
+  <script>
+    ScrollReveal().reveal('section', { delay: 200 });
+  </script>
 </body>
 </html>

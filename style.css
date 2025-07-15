@@ -3,6 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 header {
   background: #003366;
@@ -49,9 +50,32 @@ nav a {
 section {
   padding: 2em;
 }
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+form button {
+  padding: 10px 20px;
+  background: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
 footer {
   background: #003366;
   color: white;
   text-align: center;
   padding: 1em;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
 }
