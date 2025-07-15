@@ -1,53 +1,76 @@
 
+* {
+  box-sizing: border-box;
+}
 body {
-  font-family: 'Poppins', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+.container {
+  width: 90%;
+  max-width: 1140px;
+  margin: auto;
 }
 header {
-  background: #003366;
+  background-color: #003366;
   color: white;
-  padding: 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1em 0;
 }
 .logo-text {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 1.5em;
 }
-nav ul {
+.nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
+  margin: 0;
+  padding: 0;
 }
-nav a {
+.nav-links a {
   color: white;
   text-decoration: none;
 }
-.banner-text {
-  padding: 2em;
-  background: #007acc;
+.banner {
+  background-color: #007acc;
   color: white;
+  padding: 2em 0;
   text-align: center;
 }
-.banner-text .btn {
-  background: #00b894;
-  padding: 10px 20px;
-  text-decoration: none;
+.btn {
+  background-color: #00b894;
   color: white;
+  padding: 10px 20px;
   border-radius: 5px;
+  text-decoration: none;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 1em;
 }
-section {
-  padding: 2em;
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 1em;
 }
-ul {
-  padding-left: 20px;
+.service-card {
+  background-color: #ffffff;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
 }
-form input, form textarea {
+.review {
+  background-color: #fff;
+  padding: 1em;
+  border-left: 5px solid #00b894;
+  margin: 1em 0;
+}
+form input,
+form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -55,19 +78,23 @@ form input, form textarea {
 form button {
   background: #003366;
   color: white;
-  border: none;
   padding: 10px 20px;
+  border: none;
   border-radius: 5px;
 }
-.review {
-  background: #fff;
-  padding: 1em;
-  margin: 1em 0;
-  border-left: 4px solid #00b894;
-}
 footer {
-  text-align: center;
-  background: #003366;
+  background-color: #003366;
   color: white;
+  text-align: center;
   padding: 1em;
+  margin-top: 2em;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .banner-text h2 {
+    font-size: 1.5em;
+  }
 }

@@ -10,10 +10,10 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <header class="container">
     <h1 class="logo-text">RankGainer</h1>
     <nav>
-      <ul>
+      <ul class="nav-links">
         <li><a href="#">Home</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#reviews">Reviews</a></li>
@@ -22,40 +22,33 @@
     </nav>
   </header>
 
-  <section class="banner-text">
-    <h2>Want to Rank #1 on Google Maps?</h2>
-    <p>Hi, I’m Mir Rabby Ahammed — Founder of RankGainer. I help local businesses rank higher, faster & smarter through expert GMB setup and local SEO.</p>
-    <a href="#contact" class="btn">Start Now</a>
+  <section class="banner">
+    <div class="container banner-text">
+      <h2>Want to Rank #1 on Google Maps?</h2>
+      <p>I’m Mir Rabby Ahammed — Founder of RankGainer. I help local businesses rank higher, faster & smarter.</p>
+      <a href="#contact" class="btn">Start Now</a>
+    </div>
   </section>
 
-  <section id="services">
+  <section id="services" class="container">
     <h2>Our Services</h2>
-    <ul>
-      <li>📍 Google My Business (GMB) Setup</li>
-      <li>🚀 Local SEO Optimization</li>
-      <li>💼 Targeted Lead Generation</li>
-    </ul>
+    <div class="services-grid">
+      <div class="service-card">📍 Google My Business (GMB) Setup</div>
+      <div class="service-card">🚀 Local SEO Optimization</div>
+      <div class="service-card">💼 Targeted Lead Generation</div>
+    </div>
   </section>
 
-  <section id="reviews">
+  <section id="reviews" class="container">
     <h2>What Our Clients Say</h2>
-    <div class="review">
-      <p>⭐⭐⭐⭐⭐ “Absolutely amazing! My business started getting real clients within 7 days of working with RankGainer.”</p>
-      <span>- Sarah J., USA</span>
-    </div>
-    <div class="review">
-      <p>⭐⭐⭐⭐⭐ “This is the best SEO service I’ve used. Highly recommended if you want to dominate local search.”</p>
-      <span>- Ahmed K., UK</span>
-    </div>
-    <div class="review">
-      <p>⭐⭐⭐⭐⭐ “Professional work, fast delivery and real results. I will definitely come back again!”</p>
-      <span>- Linda M., Australia</span>
-    </div>
+    <div class="review">⭐⭐⭐⭐⭐ “Absolutely amazing! My business started getting real clients within 7 days of working with RankGainer.”<br><span>- Sarah J., USA</span></div>
+    <div class="review">⭐⭐⭐⭐⭐ “This is the best SEO service I’ve used. Highly recommended if you want to dominate local search.”<br><span>- Ahmed K., UK</span></div>
+    <div class="review">⭐⭐⭐⭐⭐ “Professional work, fast delivery and real results. I will definitely come back again!”<br><span>- Linda M., Australia</span></div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="container">
     <h2>Contact Me</h2>
-    <p>📩 Message me directly via <a href="https://www.facebook.com/61578385647850/" target="_blank">Facebook Page</a></p>
+    <p>📩 Message me via <a href="https://www.facebook.com/61578385647850/" target="_blank">Facebook Page</a></p>
     <form action="https://formspree.io/f/xnqewjgr" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
