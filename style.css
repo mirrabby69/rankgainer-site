@@ -3,6 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  background: #f9f9f9;
 }
 header {
   background: #003366;
@@ -12,32 +13,24 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-header .logo {
-  height: 50px;
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
 }
 nav ul {
-  display: flex;
   list-style: none;
+  display: flex;
   gap: 20px;
 }
 nav a {
   color: white;
   text-decoration: none;
 }
-.banner {
-  position: relative;
-  text-align: center;
-}
-.banner img {
-  width: 100%;
-  height: auto;
-}
 .banner-text {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -40%);
+  padding: 2em;
+  background: #007acc;
   color: white;
+  text-align: center;
 }
 .banner-text .btn {
   background: #00b894;
@@ -45,9 +38,14 @@ nav a {
   text-decoration: none;
   color: white;
   border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
 }
 section {
   padding: 2em;
+}
+ul {
+  padding-left: 20px;
 }
 form input, form textarea {
   width: 100%;
@@ -55,26 +53,21 @@ form input, form textarea {
   margin-bottom: 10px;
 }
 form button {
-  padding: 10px 20px;
   background: #003366;
   color: white;
   border: none;
+  padding: 10px 20px;
   border-radius: 5px;
 }
+.review {
+  background: #fff;
+  padding: 1em;
+  margin: 1em 0;
+  border-left: 4px solid #00b894;
+}
 footer {
+  text-align: center;
   background: #003366;
   color: white;
-  text-align: center;
   padding: 1em;
-}
-.whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
 }

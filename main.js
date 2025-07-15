@@ -1,1 +1,1 @@
-console.log('RankGainer Flat Version Loaded');
+console.log('RankGainer Professional Version Loaded');
