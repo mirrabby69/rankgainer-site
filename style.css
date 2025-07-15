@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0; padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #0d1b2a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.banner {
+  background: #1b263b;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+.btn {
+  background: #00b4d8;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 15px;
+}
+section {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+.review {
+  background: white;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+}
+input, textarea, select, button {
+  width: 100%;
+  max-width: 400px;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+button {
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  max-width: 420px;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+#userPreview {
+  background: #e7f9e7;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+  display: none;
+}
+p.note {
+  color: red;
+  font-weight: bold;
+}

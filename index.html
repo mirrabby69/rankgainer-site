@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RankGainer | Local SEO Expert</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>RankGainer</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="banner" id="home">
+  <h2>Want to Rank #1 on Google Maps?</h2>
+  <p>I’m Mir Rabby Ahammed — I help local businesses rank higher, faster & smarter.</p>
+  <a href="#contact" class="btn">Start Now</a>
+</section>
+
+<section id="services">
+  <h3>Our Services</h3>
+  <ul>
+    <li>📍 Google My Business Setup</li>
+    <li>🚀 Local SEO Optimization</li>
+    <li>💼 Lead Generation for Local Clients</li>
+  </ul>
+</section>
+
+<section id="reviews">
+  <h3>Client Reviews</h3>
+
+  <div class="review">
+    <p>⭐⭐⭐⭐⭐ “Best SEO service ever! I ranked in just 10 days.”</p>
+    <p><small>- Sarah, USA</small></p>
+  </div>
+  <div class="review">
+    <p>⭐⭐⭐⭐⭐ “100% transparent and real leads!”</p>
+    <p><small>- Karim, BD</small></p>
+  </div>
+  <div class="review">
+    <p>⭐⭐⭐⭐⭐ “Loved the GMB setup. Highly recommend.”</p>
+    <p><small>- Nabila, UK</small></p>
+  </div>
+
+  <h4>Write Your Review</h4>
+  <p class="note">Note: Your review will only be visible to you. It won’t show publicly.</p>
+  <input type="text" id="reviewerName" placeholder="Your Name" />
+  <textarea id="userReview" placeholder="Write your review here..."></textarea>
+  <label for="reviewStars">Rate us:</label>
+  <select id="reviewStars">
+    <option value="5">⭐⭐⭐⭐⭐</option>
+    <option value="4">⭐⭐⭐⭐</option>
+    <option value="3">⭐⭐⭐</option>
+    <option value="2">⭐⭐</option>
+    <option value="1">⭐</option>
+  </select>
+  <button onclick="submitReview()">Submit Review</button>
+
+  <div id="userPreview"></div>
+</section>
+
+<section id="contact">
+  <h3>Contact Me</h3>
+  <p>Message me via <a href="https://www.facebook.com/61578385647850/" target="_blank">Facebook Page</a></p>
+  <form action="https://formspree.io/f/xnqewjgr" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 RankGainer. All rights reserved.</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
